@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Sample Splash",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
