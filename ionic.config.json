@@ -3,5 +3,9 @@
   "integrations": {
     "capacitor": {}
   },
+  "hooks":{
+    "build:after": "./scripts/attach-source-maps.js",
+    "capacitor:sync:after": "./scripts/mcsdk-gradle-fix.js"
+  },
   "type": "angular"
 }
