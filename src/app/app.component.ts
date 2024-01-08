@@ -16,12 +16,12 @@ export class AppComponent implements OnInit {
   
   constructor() {
     void this.promptNativeModal();
-    void Network.addListener('networkStatusChange', (status: ConnectionStatus) => {
-      this.isNetworkAvailable = status.connected;
-      if (!this.isNetworkAvailable) {
-        void this.promptNativeModal();
-      }
-    });
+    // void Network.addListener('networkStatusChange', (status: ConnectionStatus) => {
+    //   this.isNetworkAvailable = status.connected;
+    //   if (!this.isNetworkAvailable) {
+    //     void this.promptNativeModal();
+    //   }
+    // });
   }
 
   ngOnInit(): void {
